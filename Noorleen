@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoring Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Tutoring Services</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#notes">Notes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm [Your Name], an experienced tutor in [Your Subject]. I have been teaching for [X] years and have a passion for helping students achieve their academic goals.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>One-on-One Tutoring</li>
+            <li>Group Tutoring</li>
+            <li>Online Sessions</li>
+            <li>Homework Help</li>
+            <li>Exam Preparation</li>
+        </ul>
+    </section>
+    
+    <section id="notes">
+        <h2>Notes</h2>
+        <p>Here you can find some of my notes and resources to help you with your studies:</p>
+        <ul>
+            <li><a href="note1.pdf" download>Note 1</a></li>
+            <li><a href="note2.pdf" download>Note 2</a></li>
+            <li><a href="note3.pdf" download>Note 3</a></li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
